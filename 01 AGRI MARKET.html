@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agri-Market</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Agri-Market</h1>
+    <nav>
+      <ul>
+        <li><a href="#" data-section="home">Home</a></li>
+        <li><a href="#" data-section="farmers">Farmers</a></li>
+        <li><a href="#" data-section="products">Products</a></li>
+        <li><a href="#" data-section="dashboard">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="active">
+    <h2>Welcome to Agri-Market</h2>
+    <p>
+      Agri-Market offers farmers a platform to sell their products directly to consumers...
+    </p>
+    <img src="veggies.jpg" alt="LocalHarvest Banner" class="banner-img">
+  </section>
+
+  <!-- Farmers Section -->
+  <section id="farmers">
+    <h2>Our Farmers</h2>
+    <div class="cards" id="farmers-list">
+      <!-- Farmer Cards will be injected here by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="cards" id="products-list">
+      <!-- Product Cards will be injected here by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Dashboard Section -->
+  <section id="dashboard">
+    <div class="dashboard">
+      <h2>Farmer Dashboard</h2>
+      <form id="dashboard-form">
+        <label for="product-name">Product Name</label>
+        <input type="text" id="product-name" name="product-name" required>
+
+        <label for="price">Price ($)</label>
+        <input type="number" id="price" name="price" required>
+
+        <label for="stock">Stock</label>
+        <input type="number" id="stock" name="stock" required>
+
+        <button type="submit">Add Product</button>
+      </form>
+      <h3>My Products</h3>
+      <ul id="my-products">
+        <!-- Farmer's products will be listed here -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 AgriMarket. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
