@@ -10,7 +10,13 @@
     background-color: #f4f4f4;
     color: #333;
   }
-  
+  .banner-img {
+    width: 100%; /* Cover the full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    display: block;
+}
+
   /* Header */
   header {
     background-color: #4CAF50;
