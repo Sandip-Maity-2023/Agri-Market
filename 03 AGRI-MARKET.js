@@ -30,6 +30,24 @@ const farmers = [
     history: 'Organic farming for 10 years, focusing on fruits.',
     image: 'z.jpg'
   },
+  {
+    id: 6,
+    name: 'Ramchandra Jana',
+    history: 'Organic farming for 10 years, focusing on vegetables.',
+    image: 'rr.webp'
+  },
+  {
+    id: 7,
+    name: 'Prathama Biswas',
+    history: 'Organic farming for 10 years, focusing on fruits.',
+    image: 'Pp.jpg'
+  },
+  {
+    id: 8,
+    name: 'Manik Roy',
+    history: 'Organic farming for 10 years, focusing on potatoes.',
+    image: 'mm.webp'
+  },
   
   // Add more farmers as needed
 ];
@@ -62,6 +80,69 @@ const products = [
     price: 1.5,
     farmerId: 4,
     image: 'veggies.jpg'
+  },
+  {
+    id: 5,
+    name: 'Pineapple',
+    price: 1.5,
+    farmerId: 6,
+    image: 'pineapple.webp'
+  },
+  {
+    id: 6,
+    name: 'Mango',
+    price: 1.5,
+    farmerId: 7,
+    image: 'man.jpeg'
+  },
+  {
+    id: 7,
+    name: 'Grapes',
+    price: 1.5,
+    farmerId: 7,
+    image: 'gr.jpg'
+  },
+  {
+    id: 8,
+    name: 'Fruits',
+    price: 1.5,
+    farmerId: 7,
+    image: 'fr.jpeg'
+  },
+  {
+    id: 9,
+    name: 'Couli flower',
+    price: 1.5,
+    farmerId: 7,
+    image: 'cou.jpeg'
+  },
+  {
+    id: 10,
+    name: 'Cabbage',
+    price: 1.5,
+    farmerId: 7,
+    image: 'c.jpg'
+  },
+  {
+    id: 11,
+    name: 'Bannna',
+    price: 1.5,
+    farmerId: 7,
+    image: 'ba.webp'
+  },
+  {
+    id: 12,
+    name: 'Brinjal',
+    price: 1.5,
+    farmerId: 2,
+    image: 'br.jpg'
+  },
+  {
+    id: 12,
+    name: 'Potatoes',
+    price: 1.5,
+    farmerId: 7,
+    image: 'po.jpeg'
   },
   
   // Add more products as needed

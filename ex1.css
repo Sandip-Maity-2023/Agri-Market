@@ -1,21 +1,17 @@
-/* Reset and basic styles */
-* {
-    box-sizing: border-box;
+/* 02 AGRI-MARKET.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header */
   header {
     background-color: #4CAF50;
     color: white;
-    padding: 20px 10px;
+    padding: 20px;
     text-align: center;
     position: sticky;
     top: 0;
@@ -23,17 +19,16 @@
   }
   
   header h1 {
-    margin-bottom: 10px;
+    margin: 0;
   }
   
   nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    padding: 0;
   }
   
   nav ul li {
+    display: inline;
     margin: 0 15px;
   }
   
@@ -41,24 +36,31 @@
     color: white;
     text-decoration: none;
     font-size: 16px;
-    transition: color 0.3s;
   }
   
   nav ul li a:hover {
-    color: #ddd;
+    text-decoration: underline;
   }
   
-  /* Sections */
   section {
     padding: 40px 20px;
-    display: none;
   }
   
-  section.active {
-    display: block;
+  .banner-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
   }
   
-  /* Products and Farmers */
+  /* Consumers Section */
+  #consumers {
+    padding: 40px 20px;
+  }
+  
+  #consumers h2 {
+    margin-bottom: 20px;
+  }
+  
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +97,7 @@
     color: #555;
   }
   
-  /* Dashboard */
+  /* Dashboard Section */
   .dashboard {
     max-width: 600px;
     margin: 0 auto;
@@ -141,45 +143,29 @@
   .dashboard form button:hover {
     background-color: #45a049;
   }
-  .profile-img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
-.icon {
-  width: 24px;
-  height: auto;
-}
-
   
   /* Footer */
   footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 15px;
   }
   
-  /* Responsive */
+  /* Responsive Styles */
   @media (max-width: 768px) {
     nav ul {
-      flex-direction: column;
+      text-align: center;
     }
   
     nav ul li {
+      display: block;
       margin: 10px 0;
     }
   
     .cards {
       flex-direction: column;
       align-items: center;
-    }
-  
-    footer {
-      position: static;
     }
   }
   
